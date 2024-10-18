@@ -1,7 +1,14 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import '../app.postcss';
-	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { setModeUserPrefers, setModeCurrent } from '@skeletonlabs/skeleton';
 
+	onMount(() => {
+		//always go for light mode, so I don't have to style everything twice ;)
+		setModeUserPrefers(true);
+		setModeCurrent(true);
+	});
 	// // Highlight JS
 	// import hljs from 'highlight.js/lib/core';
 	// import 'highlight.js/styles/github-dark.css';
@@ -30,19 +37,18 @@
 		<AppBar>
 			<svelte:fragment slot="lead">
 				<div class="flex flex-col">
-					<a href="/"><strong class="text-xl uppercase">SecDes</strong></a>
+					<a href="/"><strong class="text-4xl uppercase">SecDes</strong></a>
 					<a href="/"><span class="text-xs uppercase">Coock+ Project</span></a>
 				</div>
 			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<!-- <a
-					class="btn btn-sm variant-filled-secondary"
-					href="/partners"
+			<!-- <svelte:fragment slot="trail">
+				<a
+					class="btn btn-md variant-filled-secondary"
+					href="/posts"
 				>
-					Partners
-				</a> -->
-				<LightSwitch />
-			</svelte:fragment>
+					Articles
+				</a>
+			</svelte:fragment> -->
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
