@@ -41,14 +41,14 @@
 					<a href="/"><span class="text-xs uppercase">Coock+ Project</span></a>
 				</div>
 			</svelte:fragment>
-			<!-- <svelte:fragment slot="trail">
+		 <svelte:fragment slot="trail">
 				<a
 					class="btn btn-md variant-filled-secondary"
 					href="/posts"
 				>
 					Articles
 				</a>
-			</svelte:fragment> -->
+			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
