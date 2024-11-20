@@ -24,4 +24,4 @@ Threat modelling is a proactive security practice where potential threats to a s
 
 If you missed the live session, a recording of the webinar can be found below. Stay tuned for more insightful events!
 
-<Vimeo videoId="1020503411", token="0d0b041583" />
+<Vimeo videoId="1031484196", token="ce0fdd8ac2" />

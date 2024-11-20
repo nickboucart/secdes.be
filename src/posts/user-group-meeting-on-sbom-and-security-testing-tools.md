@@ -2,9 +2,10 @@
 title: User Group Meeting on SBOM and developer centric security testing
 
 description: The 2nd in-person user group meeting will be held in Mechelen, 
-date: '2024-10-15'
+date: '2024-10-28'
 categories:
   - user group meeting
+  - agenda
 tags:
 published: true
 ---

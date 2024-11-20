@@ -48,6 +48,12 @@
 				>
 					Articles
 				</a>
+				<a
+				class="btn btn-md variant-filled-secondary"
+				href="/agenda"
+			>
+				Our Events
+			</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>

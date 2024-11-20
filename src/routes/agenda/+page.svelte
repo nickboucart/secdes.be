@@ -6,9 +6,9 @@
 
 
 <svelte:head>
-	<title>Articles | Security By Design</title>
+	<title>Agenda | Security By Design</title>
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Articles" />
+	<meta property="og:title" content="Agenda" />
 </svelte:head>
 
 <!-- Posts -->
