@@ -65,7 +65,7 @@
 	<svelte:fragment slot="pageFooter">
 		<div class="flex flex-col bg-surface-300 h-24 mt-10  justify-center items-center">
 			<div class="text-center">
-				All rights reserved, DistriNet &amp; Sirris
+				&copy; 2024-2025 SECDES &mdash; <a href="/consortium" target="_blank">DistriNet &amp; sirris</a>. All rights reserved.
 			</div>
 
 </div>
