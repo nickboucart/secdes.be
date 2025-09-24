@@ -72,7 +72,7 @@
 </div>
 
 <div class="flex justify-center items-stretch gap-4 md:gap-6 w-full flex-col mt-10 px-10">
-	<div class="card variant-ghost-surface px-8 py-2 basis-auto">
+	<div class="card variant-ghost-surface px-8 py-2 basis-auto md:basis-1/3">
 		<header class="card-header text-center h4 mb-2">
 			<img class="rounded-xl h-36" src="logo-distrinet.jpg" alt="logo Distrinet" />
 		</header>
@@ -92,7 +92,7 @@
 		</footer>
 	</div>
 
-	<div class="card variant-ghost-surface px-8 py-2 basis-auto">
+	<div class="card variant-ghost-surface px-8 py-2 basis-auto md:basis-1/3">
 		<header class="card-header text-center h4 mb-2">
 			<img class="rounded-xl h-36" src="logo-sirris.jpg" alt="logo Distrinet" />
 		</header>
@@ -104,7 +104,7 @@
 			<p>Contact: Nick Boucart</p>
 		</footer>
 	</div>
-	<div class="card variant-ghost-surface px-8 py-2 basis-auto">
+	<div class="card variant-ghost-surface px-8 py-2 basis-auto md:basis-1/3">
 		<header class="card-header text-center h4 mb-2">
 			<img class="rounded-xl h-24" src="logo-vlaio.jpg" alt="logo Distrinet" />
 		</header>

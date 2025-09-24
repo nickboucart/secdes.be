@@ -42,17 +42,20 @@
 				</div>
 			</svelte:fragment>
 		 <svelte:fragment slot="trail">
-				<a
-					class="btn btn-md variant-filled-secondary"
-					href="/posts"
-				>
-					Articles
-				</a>
-				<a
-				class="btn btn-md variant-filled-secondary"
-				href="/agenda"
-			>
-				Our Events
+			 <a class="btn btn-md variant-filled-secondary" href="/">
+				 project details
+			 </a>
+			 <a class="btn btn-md variant-filled-secondary" href="/consortium">
+				 consortium
+			 </a>
+			 <a class="btn btn-md variant-filled-secondary" href="/media">
+				 media
+			 </a>
+			 <a class="btn btn-md variant-filled-secondary" href="/posts">
+				repository
+			</a>
+			<a class="btn btn-md variant-filled-secondary" href="/agenda">
+				community
 			</a>
 			</svelte:fragment>
 		</AppBar>
@@ -62,7 +65,7 @@
 	<svelte:fragment slot="pageFooter">
 		<div class="flex flex-col bg-surface-300 h-24 mt-10  justify-center items-center">
 			<div class="text-center">
-				All rights reserved, DistriNet & Sirris
+				All rights reserved, DistriNet &amp; Sirris
 			</div>
 
 </div>
