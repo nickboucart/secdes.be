@@ -58,7 +58,7 @@
 				community
 			</a>
 			 <a class="btn btn-md variant-filled-secondary" href="/agenda">
-				 agenda
+				 calendar
 			 </a>
 		 </svelte:fragment>
 		</AppBar>
