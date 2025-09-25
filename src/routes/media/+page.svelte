@@ -12,12 +12,39 @@
 	<div class="max-w-6xl w-full text-justify px-20 media">
 		<p class="title">An Introduction to Threat Modeling</p>
 		<p><strong>Date:</strong> 13/09/2024</p>
+		<p>
+			<strong>Speaker:</strong> Koen Yskout
+		</p>
 		<ul>
-			<li>In this talk, Koen Yskout introduces 'threat modeling', one of the core techniques in the secure software
-			development lifecycle. He sheds light on what threat modeling entails, where it fits in the SDLC, what benefits
-			it brings, and how to get started. The talk also incorporates findings from a recent research project, in which 
-			Koen investigates the current state of practice in large Dutch organizations regarding threat modeling, and
+			<li>This talk introduces 'threat modeling', one of the core techniques in the secure software
+			development lifecycle. It sheds light on what threat modeling entails, where it fits in the SDLC, what benefits
+			it brings, and how to get started. The talk also incorporates findings from a recent research project that 
+			investigates the current state of practice in large Dutch organizations regarding threat modeling, and
 			shares their lessons learned. [<a href="https://secdes.pieterp.be/2024-09-13-Threat_Modeling.mp4" target="_blank">video</a>]</li>
+		</ul>
+	</div>
+</div>
+
+<div class="flex w-full justify-center items-center my-10">
+	<div class="max-w-6xl w-full text-justify px-20 media">
+		<p class="title">Leveraging Product Management to Shift Left in Small SaaS Teams</p>
+		<p>
+			<strong>Date:</strong> 10/10/2024
+		</p>
+		<p>
+			<strong>Speaker:</strong> Nick Boucart
+		</p>
+		<ul>
+			<li>
+				Historically, security wasn't always a top priority for most small SaaS teams, feature development was. Upcoming legislation
+				like NIS2, CRA, ... is increasing the pressure on the teams, not from the legislation itself, but from corporate
+				customers who are becoming much more demanding. In this presentation we will argue that integrating security 
+				requirements early ("shifting left") should be driven by product management, as they have the best understanding
+				of customer concerns from both feature and security perspectives. This understanding can drive investment in
+				application security (appsec) and prioritize it on the roadmap. Product managers typically know the value of 
+				the data managed by the SaaS, whether it is crucial or peripheral to customers. 
+				[<a href="https://secdes.pieterp.be/2024-10-10-Leveraging_Product_Management.mp4" target="_blank">video</a>]
+			</li>
 		</ul>
 	</div>
 </div>
@@ -27,6 +54,9 @@
 		<p class="title">Keeping pace with OAuth's Evolving Security Practices</p>
 		<p>
 			<strong>Date:</strong> 18/10/2024
+		</p>
+		<p>
+			<strong>Speaker:</strong> Pieter Philippaerts
 		</p>
 		<ul>
 			<li>
@@ -45,6 +75,9 @@
 		<p>
 			<strong>Date:</strong> 24/04/2025
 		</p>
+		<p>
+			<strong>Speakers:</strong> Tatiana Galibus and Laurens Sion
+		</p>
 		<ul>
 			<li>
 				This webinar explores how tools can support effective threat modeling in practice. The session introduces what
@@ -62,6 +95,9 @@
 		<p class="title">OpenAPI as a Security Tool</p>
 		<p>
 			<strong>Date:</strong> 15/05/2025
+		</p>
+		<p>
+			<strong>Speaker:</strong> Philippe De Ryck
 		</p>
 		<ul>
 			<li>
@@ -82,12 +118,14 @@
 		<p>
 			<strong>Date:</strong> 13/06/2025
 		</p>
+		<p>
+			<strong>Speakers:</strong> Koen Vranckaert and Eyup Kun </p>
 		<ul>
 			<li>
 				To ensure adequate cybersecurity of hardware and software across the EU, the EU legislator has adopted many 
 				new regulations, including but not limited to NIS 2, DORA, the AI Act and the Cybersecurity Act. However, 
 				the impact on those businesses, especially SMEs, remains to be seen and can constitute a major source of 
-				uncertainty to conduct business in the EU. In this seminar, Koen Vranckaert and Eyup Kun provide a bird's
+				uncertainty to conduct business in the EU. This seminar provides a bird's
 				eye view of the new cybersecurity rules governing software, hardware and process design, focusing 
 				especially on the needs of small and medium enterprises (SMEs).
 				[<a href="https://secdes.pieterp.be/2025-06-13-NIS2_and_DORA.mp4" target="_blank">video</a>]
@@ -101,6 +139,9 @@
 		<p class="title">Introduction to SAMM</p>
 		<p>
 			<strong>Date:</strong> 11/09/2025
+		</p>
+		<p>
+			<strong>Speaker:</strong> Aram Hovsepyan
 		</p>
 		<ul>
 			<li>
@@ -116,6 +157,6 @@
 
 <svelte:head>
 	<title>SecDes - Security by Design Collective Research Project</title>
-	<meta name="description" content="SecDes is a collective research project by DistriNet and Sirris that aims to help SaaS companies adopt security-by-design.">
+	<meta name="description" content="SECDES is a collective research project by DistriNet and Sirris that aims to help SaaS companies adopt security-by-design.">
 	<meta name="robots" content="index, follow">
 </svelte:head>

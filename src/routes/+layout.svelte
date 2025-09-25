@@ -51,13 +51,16 @@
 			 <a class="btn btn-md variant-filled-secondary" href="/media">
 				 media
 			 </a>
-			 <a class="btn btn-md variant-filled-secondary" href="/posts">
+			 <a class="btn btn-md variant-filled-secondary" href="/repository">
 				repository
 			</a>
-			<a class="btn btn-md variant-filled-secondary" href="/agenda">
+			<a class="btn btn-md variant-filled-secondary" href="/posts">
 				community
 			</a>
-			</svelte:fragment>
+			 <a class="btn btn-md variant-filled-secondary" href="/agenda">
+				 agenda
+			 </a>
+		 </svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
