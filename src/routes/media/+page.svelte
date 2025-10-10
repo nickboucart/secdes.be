@@ -149,7 +149,7 @@
 				an organization's secure development lifecycle. In this session, Aram Hovsepyan, CEO of Codific and one of the
 				driving forces behind SAMM, provides a clear introduction to the model and explains how it helps organizations
 				identify where their security investments deliver the greatest value.
-				[<a href="#" target="_blank">video</a>]
+				[<a href="https://secdes.pieterp.be/2025-09-11-SAMM.mp4" target="_blank">video</a>]
 			</li>
 		</ul>
 	</div>
