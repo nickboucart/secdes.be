@@ -4,6 +4,55 @@
 
 <div class="w-full max-w-5xl mx-auto my-12 space-y-8">
 
+  <!-- Event: PR_D_CT DAY 2025 (Ghent) -->
+  <div class="border-l-4 border-green-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
+    <h3 class="text-2xl font-bold text-green-700 mb-1">PR_D_CT Day 2025 (Ghent)</h3>
+    <div class="text-sm text-gray-600 mb-2">
+      <p><strong>Date & Time:</strong> 14/11/2025</p>
+      <p><strong>Speaker:</strong> Nick Boucart</p>
+      <p><strong>Location:</strong> Louvain-la-Neuve</p>
+    </div>
+    <p class="text-gray-800">
+      This November, PR_D_CT Day takes place in Ghent, a focused event for product professionals in B2B SaaS, scale-ups, and corporates. Expect practical
+       insights on prioritization, customer value, and strategic thinking. Nick Boucart will explain how small SaaS teams can use product management to 
+       <em>shift left</em> and address security early, responding to growing customer demands without slowing down delivery. The same program is also offered at an
+       edition in Louvain-la-Neuve.
+    </p>
+    <p><a href="https://www.sirris.be/en/agenda/prdct-day-2025-ghent-product-management-impact" target="_blank">[more information]</a></p>
+  </div>
+
+  <!-- Event: Cybersecurity Industry Day -->
+  <div class="border-l-4 border-purple-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
+    <h3 class="text-2xl font-bold text-purple-700 mb-1">Cybersecurity Industry Day 2025</h3>
+    <div class="text-sm text-gray-600 mb-2">
+      <p><strong>Date & Time:</strong> 13/11/2025</p>
+      <p><strong>Location:</strong> Mechelen</p>
+    </div>
+    <p class="text-gray-800">
+       On November 13, researchers, industry experts, entrepreneurs, and policy makers come together to accelerate progress in cybersecurity. Academic research
+       in this field is closely tied to real-world impact through strong collaboration with business and society. The event bridges the gap between university 
+       and industry with keynotes, success stories, and networking opportunities. Meet the SECDES project partners there and explore new ideas or potential collaborations.
+    </p>
+    <p><a href="https://cybersecurity-industry-day.be/" target="_blank">[more information]</a></p>
+  </div>
+
+  <!-- Event: PR_D_CT DAY 2025 (Louvain La Neuve) -->
+  <div class="border-l-4 border-sky-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
+    <h3 class="text-2xl font-bold text-sky-700 mb-1">PR_D_CT Day 2025 (Louvain-la-Neuve)</h3>
+    <div class="text-sm text-gray-600 mb-2">
+      <p><strong>Date & Time:</strong> 6/11/2025</p>
+      <p><strong>Speaker:</strong> Nick Boucart</p>
+      <p><strong>Location:</strong> Louvain-la-Neuve</p>
+    </div>
+    <p class="text-gray-800">
+      This November, PR_D_CT Day takes place in Louvain-la-Neuve, a focused event for product professionals in B2B SaaS, scale-ups, and corporates. Expect practical
+       insights on prioritization, customer value, and strategic thinking. Nick Boucart will explain how small SaaS teams can use product management to 
+       <em>shift left</em> and address security early, responding to growing customer demands without slowing down delivery. The same program is also offered at an
+       edition in Ghent.
+    </p>
+    <p><a href="https://www.sirris.be/en/agenda/prdct-day-2025-louvain-la-neuve-product-management-impact" target="_blank">[more information]</a></p>
+  </div>
+
   <!-- Event: Introduction to SAMM -->
   <div class="border-l-4 border-red-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-red-700 mb-1">Introduction to SAMM</h3>
