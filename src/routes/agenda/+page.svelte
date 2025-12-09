@@ -4,6 +4,28 @@
 
 <div class="w-full max-w-5xl mx-auto my-12 space-y-8">
 
+	<!-- Event: An Overview of Threat Modeling Tools -->
+	<div class="border-l-4 border-yellow-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
+		<h3 class="text-2xl font-bold text-yellow-700 mb-1">Making the Most of Your Pentest - A Practical Guide for SaaS Teams</h3>
+		<div class="text-sm text-gray-600 mb-2">
+			<p>
+				<strong>Date & Time:</strong> 12/12/2025
+			</p>
+			<p>
+				<strong>Speaker:</strong> Mathias Selleslach
+			</p>
+			<p>
+				<strong>Location:</strong> Online seminar
+			</p>
+		</div>
+		<p class="text-gray-800">
+			Are you planning a penetration test for your SaaS product or wondering how to get more out of your next one? Join us for a focused webinar designed 
+			for software developers and CTOs of small SaaS companies. We’ll walk you through the key do’s and don’ts when engaging with pentesting companies: what 
+			to expect from the process, how to prepare your team and environment, and how to turn the findings into tangible security improvements and even 
+			commercial advantages. Learn how to transform a mandatory security exercise into a strategic asset for your product and your business.
+		</p>
+	</div>
+	
   <!-- Event: PR_D_CT DAY 2025 (Ghent) -->
   <div class="border-l-4 border-green-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-green-700 mb-1">PR_D_CT Day 2025 (Ghent)</h3>
