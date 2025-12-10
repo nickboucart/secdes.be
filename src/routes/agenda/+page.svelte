@@ -24,6 +24,9 @@
 			to expect from the process, how to prepare your team and environment, and how to turn the findings into tangible security improvements and even 
 			commercial advantages. Learn how to transform a mandatory security exercise into a strategic asset for your product and your business.
 		</p>
+		<p>
+			<a href="https://www.security-by-design.be/posts/seminar-pentesting">[more information]</a>
+		</p>
 	</div>
 	
   <!-- Event: PR_D_CT DAY 2025 (Ghent) -->
