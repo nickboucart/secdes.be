@@ -155,6 +155,28 @@
 	</div>
 </div>
 
+<div class="flex w-full justify-center items-center my-10">
+	<div class="max-w-6xl w-full text-justify px-20 media">
+		<p class="title">Getting the most out of your pentest</p>
+		<p>
+			<strong>Date:</strong> 12/12/2025
+		</p>
+		<p>
+			<strong>Speaker:</strong> Mathias Selleslach
+		</p>
+		<ul>
+			<li>
+				Are you planning a penetration test for your SaaS product or wondering how to get more out of your next one? Join
+				us for a focused webinar designed for software developers and CTOs of small SaaS companies. We’ll walk you through
+				the key do’s and don’ts when engaging with pentesting companies: what to expect from the process, how to prepare
+				your team and environment, and how to turn the findings into tangible security improvements and even commercial
+				advantages. Learn how to transform a mandatory security exercise into a strategic asset for your product and your business.
+				[<a href="https://secdes.pieterp.be/2025-12-12-Pentesting.mp4" target="_blank">video</a>]
+			</li>
+		</ul>
+	</div>
+</div>
+
 <svelte:head>
 	<title>SecDes - Security by Design Collective Research Project</title>
 	<meta name="description" content="SECDES is a collective research project by DistriNet and Sirris that aims to help SaaS companies adopt security-by-design.">
