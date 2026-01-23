@@ -138,6 +138,14 @@
 				identify where their security investments deliver the greatest value.
 				 [<a href="/content/2025-09-11_Introduction_to_SAMM.pdf" target="_blank">download</a>]</li>
 		</ul>
+		<ul>
+			<li><strong>Building Secure Applications in the Age of AI</strong> &mdash; Building secure software with AI tools requires
+				careful attention to the ways these systems can introduce new security risks into the development lifecycle. AI tools
+				can generate insecure code patterns, unsafe dependency choices, or expose sensitive data through prompts. AI-assisted
+				development can propagate vulnerabilities at scale; only by enforcing rigorous security practices throughout the 
+				development lifecycle can these risks be mitigated.
+				 [<a href="/content/2026-01-21_Writing_Secure_Software_in_the_Age_of_AI.pdf" target="_blank">download</a>]</li>
+		</ul>
 	</div>
 </div>
 

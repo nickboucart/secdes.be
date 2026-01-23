@@ -4,12 +4,42 @@
 
 <div class="w-full max-w-5xl mx-auto my-12 space-y-8">
 
+	<!-- Event: An Introduction to Threat Modeling -->
+	<div class="border-l-4 border-blue-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
+		<h3 class="text-2xl font-bold text-blue-700 mb-1">SecDes Closing Event</h3>
+		<div class="text-sm text-gray-600 mb-2">
+			<p>
+				<strong>Date &amp; Time:</strong> 21/01/2026
+			</p>
+			<p>
+				<strong>Speaker:</strong> Nick Boucart, Pieter Philippaerts, Jonas Van de Vyver
+			</p>
+			<p>
+				<strong>Location:</strong> SIRRIS Heverlee
+			</p>
+		</div>
+		<p class="text-gray-800">
+			This event is an opportunity to start the new year with concrete insights from the SecDes project, with a strong focus on what actually works for smaller teams with limited time, people, and resources.
+			Our agenda will include:
+			<ul>
+				<li>Welcome with sandwich lunch</li>
+				<li>A concise overview of the SecDes project findings, tailored to the realities of SMEs and small development teams</li>
+				<li>A forward-looking talk on building secure applications in the age of AI agents</li>
+				<li>An interactive speed-dating session, where participants exchange experiences and reflect on their own journey in adopting AppSec and security-by-design</li>
+				<li>An overview of the VLAIO instruments and support mechanisms available to help SMEs strengthen their security-by-design efforts</li>
+				<li>Networking drink</li>
+			</ul>
+			This event is particularly relevant for developers, technical leads, product managers, and decision-makers in SMEs who want to improve their application security without slowing down innovation.
+
+		</p>
+	</div>
+
 	<!-- Event: An Overview of Threat Modeling Tools -->
 	<div class="border-l-4 border-yellow-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
 		<h3 class="text-2xl font-bold text-yellow-700 mb-1">Making the Most of Your Pentest - A Practical Guide for SaaS Teams</h3>
 		<div class="text-sm text-gray-600 mb-2">
 			<p>
-				<strong>Date & Time:</strong> 12/12/2025
+				<strong>Date &amp; Time:</strong> 12/12/2025
 			</p>
 			<p>
 				<strong>Speaker:</strong> Mathias Selleslach
@@ -33,7 +63,7 @@
   <div class="border-l-4 border-green-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-green-700 mb-1">PR_D_CT Day 2025 (Ghent)</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 14/11/2025</p>
+      <p><strong>Date &amp; Time:</strong> 14/11/2025</p>
       <p><strong>Speaker:</strong> Nick Boucart</p>
       <p><strong>Location:</strong> Louvain-la-Neuve</p>
     </div>
@@ -50,7 +80,7 @@
   <div class="border-l-4 border-purple-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-purple-700 mb-1">Cybersecurity Industry Day 2025</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 13/11/2025</p>
+      <p><strong>Date &amp; Time:</strong> 13/11/2025</p>
       <p><strong>Location:</strong> Mechelen</p>
     </div>
     <p class="text-gray-800">
@@ -65,7 +95,7 @@
   <div class="border-l-4 border-sky-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-sky-700 mb-1">PR_D_CT Day 2025 (Louvain-la-Neuve)</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 6/11/2025</p>
+      <p><strong>Date &amp; Time:</strong> 6/11/2025</p>
       <p><strong>Speaker:</strong> Nick Boucart</p>
       <p><strong>Location:</strong> Louvain-la-Neuve</p>
     </div>
@@ -82,7 +112,7 @@
   <div class="border-l-4 border-red-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-red-700 mb-1">Introduction to SAMM</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 11/09/2025</p>
+      <p><strong>Date &amp; Time:</strong> 11/09/2025</p>
       <p><strong>Speaker:</strong> Aram Hovsepyan</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -97,7 +127,7 @@
   <div class="border-l-4 border-teal-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-teal-700 mb-1">NIS 2, DORA, and "the likes"</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 13/06/2025</p>
+      <p><strong>Date &amp; Time:</strong> 13/06/2025</p>
       <p><strong>Speaker:</strong> Koen Vranckaert &amp; Eyup Kun</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -113,7 +143,7 @@
   <div class="border-l-4 border-indigo-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-indigo-700 mb-1">OpenAPI as a Security Tool</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 15/05/2025</p>
+      <p><strong>Date &amp; Time:</strong> 15/05/2025</p>
       <p><strong>Speaker:</strong> Philippe De Ryck</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -129,7 +159,7 @@
   <div class="border-l-4 border-yellow-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-yellow-700 mb-1">An Overview of Threat Modeling Tools</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 24/04/2025</p>
+      <p><strong>Date &amp; Time:</strong> 24/04/2025</p>
       <p><strong>Speaker:</strong> Tatiana Galibus &amp; Laurens Sion</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -144,7 +174,7 @@
   <div class="border-l-4 border-slate-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-slate-700 mb-1">Threat Modeling Workshop</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 15/01/2025</p>
+      <p><strong>Date &amp; Time:</strong> 15/01/2025</p>
       <p><strong>Speaker:</strong> Tatiana Galibus</p>
       <p><strong>Location:</strong> Gent</p>
     </div>
@@ -160,7 +190,7 @@
   <div class="border-l-4 border-orange-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-orange-700 mb-1">Security-by-Design User Group meeting</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 14/11/2024</p>
+      <p><strong>Date &amp; Time:</strong> 14/11/2024</p>
       <p><strong>Speaker:</strong> Nick Boucart, Tatiana Galibus &amp; Roeland Delrue</p>
       <p><strong>Location:</strong> Mechelen</p>
     </div>
@@ -177,7 +207,7 @@
   <div class="border-l-4 border-purple-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-purple-700 mb-1">Keeping pace with OAuth's Evolving Security Practices</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 18/10/2024</p>
+      <p><strong>Date &amp; Time:</strong> 18/10/2024</p>
       <p><strong>Speaker:</strong> Pieter Philippaerts</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -192,7 +222,7 @@
   <div class="border-l-4 border-green-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-green-700 mb-1">Leveraging Product Management to Shift Left in Small SaaS Teams</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 10/10/2024</p>
+      <p><strong>Date &amp; Time:</strong> 10/10/2024</p>
       <p><strong>Speaker:</strong> Nick Boucart</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -210,7 +240,7 @@
   <div class="border-l-4 border-blue-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-blue-700 mb-1">An Introduction to Threat Modeling</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 13/09/2024</p>
+      <p><strong>Date &amp; Time:</strong> 13/09/2024</p>
       <p><strong>Speaker:</strong> Koen Yskout</p>
       <p><strong>Location:</strong> Online seminar</p>
     </div>
@@ -225,7 +255,7 @@
   <div class="border-l-4 border-sky-500 pl-6 py-4 bg-gray-50 shadow-sm rounded-md">
     <h3 class="text-2xl font-bold text-sky-700 mb-1">Security-by-Design User Group meeting</h3>
     <div class="text-sm text-gray-600 mb-2">
-      <p><strong>Date & Time:</strong> 30/05/2024</p>
+      <p><strong>Date &amp; Time:</strong> 30/05/2024</p>
       <p><strong>Speaker:</strong> Nick Boucart &amp; Pieter Philippaerts</p>
       <p><strong>Location:</strong> Leuven</p>
     </div>
