@@ -21,16 +21,17 @@
 		<p class="text-gray-800">
 			This event is an opportunity to start the new year with concrete insights from the SecDes project, with a strong focus on what actually works for smaller teams with limited time, people, and resources.
 			Our agenda will include:
-			<ul>
-				<li>Welcome with sandwich lunch</li>
-				<li>A concise overview of the SecDes project findings, tailored to the realities of SMEs and small development teams</li>
-				<li>A forward-looking talk on building secure applications in the age of AI agents</li>
-				<li>An interactive speed-dating session, where participants exchange experiences and reflect on their own journey in adopting AppSec and security-by-design</li>
-				<li>An overview of the VLAIO instruments and support mechanisms available to help SMEs strengthen their security-by-design efforts</li>
-				<li>Networking drink</li>
-			</ul>
+		</p>
+		<ul>
+			<li>Welcome with sandwich lunch</li>
+			<li>A concise overview of the SecDes project findings, tailored to the realities of SMEs and small development teams</li>
+			<li>A forward-looking talk on building secure applications in the age of AI agents</li>
+			<li>An interactive speed-dating session, where participants exchange experiences and reflect on their own journey in adopting AppSec and security-by-design</li>
+			<li>An overview of the VLAIO instruments and support mechanisms available to help SMEs strengthen their security-by-design efforts</li>
+			<li>Networking drink</li>
+		</ul>
+		<p>
 			This event is particularly relevant for developers, technical leads, product managers, and decision-makers in SMEs who want to improve their application security without slowing down innovation.
-
 		</p>
 	</div>
 
