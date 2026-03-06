@@ -54,9 +54,9 @@
 			 <a class="btn btn-md variant-filled-secondary" href="/repository">
 				repository
 			</a>
-			<a class="btn btn-md variant-filled-secondary" href="/posts">
+			<!--<a class="btn btn-md variant-filled-secondary" href="/posts">
 				community
-			</a>
+			</a>-->
 			 <a class="btn btn-md variant-filled-secondary" href="/agenda">
 				 calendar
 			 </a>
