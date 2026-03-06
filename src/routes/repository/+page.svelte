@@ -106,7 +106,7 @@
 				do. This presentation focuses on building a security mindset that questions assumptions, maps out how systems really work,
 				 and highlights where trust could be broken. You learn to visualize data flows, identify the most critical assets, and 
 				 think through worst-case scenarios that threaten confidentiality, integrity, or availability.
-				[<a href="/content/2025-01-15_Threat_modeling_workshop.pdf" target="_blank">download</a>]</li>
+				[<a href="/content/TM_start-up_kit.zip" target="_blank">download</a>]</li>
 		</ul>
 		<ul>
 			<li><strong>An Overview of Threat Modeling Tools</strong> &mdash; This presentation explores how tools can support effective 
@@ -145,6 +145,24 @@
 				development can propagate vulnerabilities at scale; only by enforcing rigorous security practices throughout the 
 				development lifecycle can these risks be mitigated.
 				 [<a href="/content/2026-01-21_Writing_Secure_Software_in_the_Age_of_AI.pdf" target="_blank">download</a>]</li>
+		</ul>
+		<ul>
+			<li><strong>Practical Comparison of Threat Modeling Tools and Approaches for Small Teams</strong> &mdash; In today's fast-moving
+				development environments, threat modeling is essential for building secure systems. However, small teams often struggle
+				with choosing the right approach. Some methods are too heavy and time-consuming, while others may lack depth or traceability.
+				This whitepaper explores three practical approaches to threat modeling, with real-world examples and trade-offs.
+				[<a href="/content/Threat_Modeling_Tools_Whitepaper.pdf" target="_blank">download</a>]</li>
+		</ul>
+		<ul>
+			<li><strong>Dependency Tracking and SBOM: Strengthening Software Supply Chain Security</strong> &mdash; Modern software is built
+				from many third-party and open-source components rather than from scratch, creating a complex ecosystem with significant 
+				supply-chain risks. Incidents such as the SolarWinds compromise, the Log4j vulnerability, and the XZ Utils backdoor show
+				how weaknesses in dependencies can have widespread consequences, sometimes revealed by small anomalies like an SSH delay.
+				A Software Bill of Materials (SBOM)—similar to an ingredient list for software—improves transparency, traceability, and 
+				accountability by documenting all components in a system. This helps organizations detect vulnerabilities faster, meet 
+				regulatory requirements, and strengthen trust in the software supply chain. This whitepaper examines SBOM benefits, 
+				standards, tools, and best practices for adoption.
+				[<a href="/content/SBOM_Whitepaper.pdf" target="_blank">download</a>]</li>
 		</ul>
 	</div>
 </div>
