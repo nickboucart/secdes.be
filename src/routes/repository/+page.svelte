@@ -11,7 +11,7 @@
 <div class="flex w-full justify-center items-center my-10">
 	<div class="max-w-6xl w-full text-justify px-20 rep">
 		<ul>
-			<li><strong>Zeven essentiële principes voor het schrijven van veilige programma's</strong> &mdash; Modern software security 
+			<li><strong>Zeven essentiële principes voor het schrijven van veilige programma's</strong> <em>(Dutch)</em> &mdash; Modern software security 
 				requires more than patching vulnerabilities after release &mdash; it demands a proactive approach woven into development 
 				itself. This article explains how secure coding practices reduce risk by eliminating common weaknesses early, making 
 				systems more resilient and cost-effective to maintain.
@@ -27,7 +27,7 @@
 				[<a href="/content/2024-05-30_IntroToSECDES.pdf" target="_blank">download</a>]</li>
 		</ul>
 		<ul>
-			<li><strong>Softwarebeveiliging meten met OWASP SAMM</strong> &mdash; In a landscape where cyberattacks and regulation intensify,
+			<li><strong>Softwarebeveiliging meten met OWASP SAMM</strong> <em>(Dutch)</em> &mdash; In a landscape where cyberattacks and regulation intensify,
 				measuring software security becomes a strategic necessity. This article presents the OWASP SAMM framework as a practical, adaptable
 				tool for assessing the maturity of an organization's security practices in software development. By evaluating governance, design,
 				implementation, verification, and operations across defined maturity levels, SAMM helps organizations identify strengths and 
@@ -35,7 +35,7 @@
 				[<a href="https://cybersecurity-bites.be/cybersecuritybydesign/softwarebeveiliging-meten-met-owasp-samm/" target="_blank">view online</a>]</li>
 		</ul>
 		<ul>
-			<li><strong>Strategieën voor softwarebeveiliging in de ontwikkelingscyclus</strong> &mdash; Software development strategies can differ widely 
+			<li><strong>Strategieën voor softwarebeveiliging in de ontwikkelingscyclus</strong> <em>(Dutch)</em> &mdash; Software development strategies can differ widely 
 				in how they approach security, and this article explores three common models for embedding it into the development cycle. DevOpsSec 
 				integrates security measures later in the pipeline, while DevSecOps weaves checks and controls throughout each phase, 
 				and SecDevOps treats security as a foundational design principle from the very start. Each approach comes with distinct benefits and 
@@ -51,14 +51,14 @@
 			[<a href="/content/2024-09-13_Intro_to_Threat modeling.pdf" target="_blank">download</a>]</li>
 		</ul>
 		<ul>
-			<li><strong>SecDevOps: Beveiliging als cruciaal deel van het ontwikkelingsproces</strong> &mdash; This article makes the case for SecDevOps
+			<li><strong>SecDevOps: Beveiliging als cruciaal deel van het ontwikkelingsproces</strong> <em>(Dutch)</em> &mdash; This article makes the case for SecDevOps
 				as a development philosophy in which security is not an added layer, but the very foundation of software creation. Instead of pushing security 
 				tasks to later stages, SecDevOps embeds continuous security controls and accountability at every step, ensuring that critical vulnerabilities 
 				are identified and addressed early.
 				[<a href="https://cybersecurity-bites.be/cybersecuritybydesign/secdevops-beveiliging-als-cruciaal-deel-van-het-ontwikkelingsproces/" target="_blank">view online</a>]</li>
 		</ul>
 		<ul>
-			<li><strong>De 4 belangrijkste SecDevOps-uitdagingen aangepakt</strong> &mdash; This article tackles the four major challenges companies often face
+			<li><strong>De 4 belangrijkste SecDevOps-uitdagingen aangepakt</strong> <em>(Dutch)</em> &mdash; This article tackles the four major challenges companies often face
 				when shifting to SecDevOps from culture clashes and skill gaps to tool complexity and talent shortages. It highlights the friction between
 				traditional team silos and a unified security mindset, underscores the need to upskill developers, and addresses the strain on limited 
 				cybersecurity resources. At the same time, it warns of tool proliferation creating noise and integration difficulties, and suggests remedies
@@ -129,6 +129,29 @@
 				workflows. It discusses how well-crafted specs help uncover security issues, guide audits, and power security
 				tools for testing, automated attacks, and even runtime protection.
 				[<a href="/content/2025-05-15_OpenAPI_security.pdf" target="_blank">download</a>]</li>
+		</ul>		
+		<ul>
+			<li>
+				<strong>Waarom API-beveiliging essentieel is voor elke organisatie</strong> <em>(Dutch)</em> &mdash; This article explains why API security is a crucial aspect of 
+				developing secure software. It highlights how APIs, as software interfaces between applications, create an important attack surface and why secure design and development
+				practices are needed to prevent vulnerabilities, data leaks, and misuse.
+				[<a href="https://cybersecurity-bites.be/ict-beheer/waarom-api-beveiliging-essentieel-is-voor-elke-organisatie/" target="_blank">view online</a>]
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<strong>Hoe stel je een API-beveiligingsplan op?</strong> <em>(Dutch)</em> &mdash; This article describes how organizations can develop a structured API security plan 
+				as part of building and managing secure software. It emphasizes the importance of a clear security framework to protect API endpoints and reduce vulnerabilities in applications.
+				[<a href="https://cybersecurity-bites.be/cyberwijs/hoe-stel-je-een-api-beveiligingsplan-op/" target="_blank">view online</a>]
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<strong>Concrete maatregelen voor het beveiligen van je API’s</strong> <em>(Dutch)</em> &mdash; This article presents practical technical measures to better secure APIs—the
+				software components that enable communication between applications. It discusses steps such as encrypted communication, access control, input validation, and automated security
+				testing to reduce vulnerabilities in software interfaces.
+				[<a href="https://cybersecurity-bites.be/cybersecuritybydesign/concrete-maatregelen-voor-het-beveiligen-van-je-apis/" target="_blank">view online</a>]
+			</li>
 		</ul>
 		<ul>
 			<li><strong>Introduction to SAMM</strong> &mdash; OWASP SAMM, the Software Assurance Maturity Model, offers an effective, 
