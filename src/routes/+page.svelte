@@ -1,127 +1,263 @@
-<div class="flex justify-center items-center w-full h-60 flex-col md:flex-row mt-5 px-5">
-	<div class="flex flex-col justify-center items-center p-4 space-y-1 text-center w-full mx-3 px-3">
-		<h2 class="h1 uppercase mb-5">Coock+ project SECDES</h2>
-		<p class="p-4 h4 align-middle">
-			Exploring how SaaS-teams can adopt 
-			<span class="bg-secondary-500 p-1 rounded-lg">security by design</span> 
-			without slowing innovation.
-		</p>
-	</div>
-</div>
-<div class="flex w-full justify-center items-center">
-	<div class="max-w-7xl text-justify px-20">
-		<p>
-			Companies that build Software-as-a-Service (SaaS) solutions face unique security challenges.
-			Their architectures are often complex, involving multiple technologies, integrations, and
-			cloud-based deployments. This complexity makes it difficult to embed robust security measures
-			directly into the design. As a result, many organizations either postpone security until
-			late in development or rely on ad-hoc solutions, leaving applications exposed to cyberattacks
-			and data breaches.
-		</p>
-		<p class="mt-3">
-			At the same time, the pressure to demonstrate trustworthy security practices is rapidly increasing.
-			Customers are becoming more vigilant about the safety of the software they use, with growing
-			awareness of supply chain risks. Legislators have also raised the bar through frameworks such
-			as NIS2 and CRA, requiring companies to provide evidence of how their software is secured. For
-			small and medium-sized enterprises, especially those developing SaaS products, these demands
-			are particularly heavy: resources are scarce, but the need to prove security maturity is urgent.
-		</p>
-		<p class="mt-3">
-			The SECDES project addresses exactly that gap. By making advanced methods from security engineering
-			accessible and practical, we aim to support companies in integrating security-by-design into
-			their development processes. Our goal is to lower the barriers for adopting modern, cost-efficient,
-			and lightweight security approaches, enabling businesses to confidently design, test, and report
-			on the security of their SaaS products. In doing so, we help them strengthen their competitiveness,
-			accelerate time-to-market, and build digital services that customers can trust.
-		</p>
-		<p class="mt-3">
-			The project is aimed primarily at small and medium-sized companies in Flanders that develop and deliver SaaS
-			solutions, including firms that complement physical products with online platforms. These organizations often
-			have limited in-house expertise but face the same complex security challenges as larger players. By
-			participating, they gain access to knowledge, tools, and guidance that would otherwise remain out of reach.
-		</p>
-	</div>
-</div>
-<div class="flex w-full justify-center items-center my-10">
-	<div class="text-4xl text-center">Focus of the project</div>
-</div>
-<div class="flex w-full justify-center items-center">
-	<div class="max-w-7xl text-justify px-20">
-		<p>
-			The project revolves around three core areas that together cover the entire journey from knowledge to practice:
-			building and translating expertise, offering practical tooling, and supporting effective documentation and reporting.
-			By advancing in each of these areas, companies can steadily mature their security capabilities and move towards
-			a full security-by-design culture.
-		</p>
-	</div>
-</div>
-<div class="flex justify-center items-stretch gap-4 md:gap-6 flex-col md:flex-row mt-10 px-10 max-w-7xl mx-auto">
-	<div class="card variant-ghost-surface flex flex-col px-8 py-2 basis-auto md:basis-1/3">
-		<header class="card-header text-center h4 mb-2 items-center min-h-[5rem]">Knowledge Buildup and Translation</header>
-		<section class="text-justify">
-			This focus area ensures that companies gain both awareness and actionable insights into secure software 
-			development. Many organizations lack deep expertise in cybersecurity, and the tools available are often 
-			documented only for simple cases, not for the complex SaaS environments in which our target group operates. 
-			This project collects, structures, and translates cutting-edge research results—such as threat modeling
-			methods, application analysis, and security testing techniques—into practical blueprints and case studies. 
-			The emphasis lies on making complex security principles understandable and directly relevant to industry 
-			needs. Through this effort, companies can learn to identify vulnerabilities early, understand trade-offs 
-			between design choices, and build secure architectures that align with their business goals. By grounding 
-			knowledge in realistic SaaS scenarios, we bridge the gap between academic research and day-to-day software 
-			engineering practice.
-		</section>
-	</div>
-	<div class="card variant-ghost-surface flex flex-col px-8 py-2 basis-auto md:basis-1/3">
-		<header class="card-header text-center h4 mb-2 items-center min-h-[5rem]">
-			Practical Tooling
-		</header>
-		<section class="text-justify">
-			Even with strong theoretical understanding, companies need tangible tools to put security-by-design into
-			practice. The second focus area equips them with hands-on resources to secure both the architecture and 
-			deployment of their applications. We provide evaluation frameworks and trade-off analyses that help 
-			businesses select the right security tools for their specific environments. This includes vulnerability 
-			scanners, automated testing frameworks, and methods for integrating security checks into the software 
-			development life cycle. The project also delivers demonstrators that show how tools can be realistically 
-			applied in cloud-based SaaS setups, making their value concrete and relatable. By lowering the learning 
-			curve and tailoring the use of tools to complex architectures, we empower companies to move from theory 
-			to action—detecting and mitigating risks before they can be exploited.
-		</section>
-	</div>
-	<div class="card variant-ghost-surface flex flex-col px-8 py-2 basis-auto md:basis-1/3">
-		<header class="card-header text-center h4 mb-2 items-center min-h-[5rem]">Documentation &amp; Reporting</header>
-		<section class="text-justify">
-			Security is only credible when it can be demonstrated. That is why the third focus area is dedicated to 
-			documentation and reporting. Companies often struggle to present their security posture in a structured 
-			and convincing way, whether towards customers, regulators, or internal stakeholders. This project supports 
-			them in developing clear, standardized templates for security reporting. These cover not only the 
-			architecture and design decisions, but also the testing strategies and operational safeguards in place. 
-			By offering guidance on what to document and how to present it, we help businesses communicate their 
-			security maturity transparently and confidently. Effective reporting not only supports compliance with 
-			regulatory requirements, but also strengthens customer trust and positions companies as reliable partners 
-			in the digital ecosystem.
-		</section>
-	</div>
-</div>
-<div class="flex w-full justify-center items-center my-20">
-	<div class="max-w-7xl text-justify px-20">
-		<p>
-			By lowering the barriers to adopting secure-by-design practices, this project will have a direct economic 
-			and societal impact. Companies will reduce the costs and risks associated with cyber incidents, while also 
-			accelerating the development of secure products. Stronger security will become a competitive advantage, 
-			opening doors to international markets and shortening sales cycles. On a broader level, this project fosters 
-			a culture of trust and resilience in the digital economy: as more businesses embed security into their DNA, 
-			confidence in digital services grows across the ecosystem.
-		</p>
-		<p class="mt-3">
-			We warmly invite all interested companies, partners, and stakeholders to join us in this initiative. Whether 
-			you are building SaaS products, offering complementary services, or simply want to strengthen your approach
-			to security, your participation will help shape a stronger and safer digital future.
-		</p>
-	</div>
-</div>
+<script lang="ts">
+	const projectSignals = [
+		{
+			label: 'Audience',
+			value: 'SaaS SMEs',
+			copy: 'Built for smaller software teams that need practical security improvements, not heavyweight process.'
+		},
+		{
+			label: 'Approach',
+			value: 'Applied research',
+			copy: 'We translate strong security engineering practices into formats teams can actually adopt.'
+		},
+		{
+			label: 'Coverage',
+			value: '3 workstreams',
+			copy: 'The project combines knowledge transfer, practical tooling, and security reporting.'
+		}
+	];
+
+	const focusAreas = [
+		{
+			id: '01',
+			title: 'Knowledge buildup and translation',
+			copy: 'Threat modeling, application security engineering, and secure software development are often documented for large organizations, not lean SaaS teams. SECDES translates those methods into practical guidance, examples, and case studies that fit smaller product organizations.'
+		},
+		{
+			id: '02',
+			title: 'Practical tooling',
+			copy: 'The project compares approaches, explains trade-offs, and highlights tools that can support secure design, testing, and verification in realistic SaaS environments. The goal is to reduce adoption friction and help teams make informed tooling choices.'
+		},
+		{
+			id: '03',
+			title: 'Documentation and reporting',
+			copy: 'Security work only becomes valuable to customers, auditors, and stakeholders when teams can explain it clearly. SECDES helps companies structure design decisions, evidence, and reporting so they can communicate maturity with confidence.'
+		}
+	];
+
+	const outcomes = [
+		{
+			title: 'Design with security in mind from the start',
+			copy: 'Learn how to think about architecture, trust boundaries, and risks early enough to influence product decisions.'
+		},
+		{
+			title: 'Choose tools that fit your context',
+			copy: 'Understand where scanning, testing, and threat modeling tools help, and where they create unnecessary friction.'
+		},
+		{
+			title: 'Prepare for customer and regulatory scrutiny',
+			copy: 'Build the reporting discipline needed for conversations around NIS2, supply chain security, and secure development expectations.'
+		},
+		{
+			title: 'Move faster with stronger confidence',
+			copy: 'Security by design should support delivery, not stall it. The project focuses on approaches that work for smaller teams.'
+		}
+	];
+
+	const topicHighlights = [
+		'Threat modeling',
+		'Secure SDLC',
+		'API security',
+		'Security testing',
+		'SBOM and supply chain',
+		'Security reporting'
+	];
+</script>
 
 <svelte:head>
-	<title>SECDES - Security by Design Collective Research Project</title>
-	<meta name="description" content="SECDES is a collective research project by DistriNet and Sirris that aims to help SaaS companies adopt security-by-design.">
-	<meta name=”robots” content="index, follow">
+	<title>SECDES | Practical Security-by-Design Guidance</title>
+	<meta
+		name="description"
+		content="SECDES is a collective research project by DistriNet and Sirris that helps SaaS companies adopt practical security-by-design practices."
+	/>
+	<meta name="robots" content="index, follow" />
 </svelte:head>
+
+<section class="section" style="padding-top: 0; padding-bottom: 0;">
+	<div class="site-container">
+		<div class="surface-panel p-8 sm:p-10 lg:p-12">
+			<div class="grid gap-8 xl:grid-cols-[minmax(0,1.4fr)_20rem] xl:items-start" style="padding-top: 1rem; padding-bottom:3rem;">
+				<div>
+					<h1 class="display-title max-w-4xl">Practical Security-by-Design Guidance for SaaS Teams</h1>
+					<p class="lead mt-6 max-w-3xl">
+						SECDES helps small and midsize software companies strengthen secure software development
+						without slowing down delivery. Companies building Software-as-a-Service products face a
+						difficult mix of architectural complexity, cloud deployment models, third-party
+						integrations, and continuous release pressure, which makes it easy for security to be
+						postponed until late in development.
+					</p>
+					<p class="copy mt-4 max-w-3xl">
+						At the same time, customers, partners, and regulators increasingly expect clear evidence
+						that software is designed, tested, and maintained securely. SECDES turns research in secure
+						software engineering into events, materials, tooling guidance, and reporting practices that
+						smaller teams can actually use.
+					</p>
+
+					<div class="mt-8 flex flex-wrap gap-4">
+						<a class="button-primary" href="/repository">Browse project resources</a>
+						<a class="button-secondary" href="/agenda">Explore the event archive</a>
+					</div>
+				</div>
+
+				<div class="grid gap-4 xl:pt-2">
+					{#each projectSignals as signal}
+						<div class="metric">
+							<p class="metric-label">{signal.label}</p>
+							<p class="metric-value">{signal.value}</p>
+							<p class="metric-copy">{signal.copy}</p>
+						</div>
+					{/each}
+				</div>
+			</div>
+
+			<div class="mt-10 grid gap-6 lg:grid-cols-2">
+				<div class="surface-panel p-8">
+					<p class="kicker">Project scope</p>
+					<h2 class="section-title mt-4">Helping companies build security into product decisions.</h2>
+					<p class="copy mt-4">
+						Companies that develop Software-as-a-Service solutions deal with complex architectures,
+						integrations, and cloud-native deployments. Those realities make security harder to reason
+						about and easier to postpone. SECDES addresses that gap by lowering the barrier to secure
+						software design, testing, and evidence gathering.
+					</p>
+					<p class="copy mt-4">
+						Customers are also more alert to software risk, data protection, and supply-chain
+						exposure, while frameworks such as NIS2 and the Cyber Resilience Act raise the bar for
+						showing how products are secured. For small and midsize companies, that creates a clear
+						gap between what is expected and what is feasible with limited in-house security
+						expertise.
+					</p>
+					<p class="copy mt-4">
+						The project is especially relevant for software companies in Flanders that want stronger
+						application security practices but do not have large dedicated security teams.
+					</p>
+				</div>
+
+				<div class="surface-panel p-8">
+					<p class="kicker">Core topics</p>
+					<h2 class="section-title mt-4">A focused program around secure software development.</h2>
+					<div class="mt-6 flex flex-wrap gap-3">
+						{#each topicHighlights as topic}
+							<span class="tag">{topic}</span>
+						{/each}
+					</div>
+					<p class="copy mt-6">
+						SECDES makes advanced methods from security engineering more accessible and more
+						practical. The project focuses on lightweight, cost-effective approaches that help
+						companies design, test, and explain the security of their products in ways that fit real
+						engineering work.
+					</p>
+					<p class="copy mt-4">
+						The goal is not only better protection. It is also stronger competitiveness, faster
+						time-to-market, and more credible conversations with customers, partners, and regulators.
+					</p>
+				</div>
+			</div>
+
+			<div class="mt-10 surface-panel p-8 sm:p-10 lg:p-12">
+				<div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+					<div>
+						<p class="kicker">Why this matters now</p>
+						<h2 class="section-title mt-4">
+							Smaller software teams are under growing pressure to show how security is built into the
+							product.
+						</h2>
+						<p class="copy mt-4">
+							SECDES exists to help teams respond to rising customer expectations, stronger regulatory
+							attention, and the practical reality of limited internal security capacity.
+						</p>
+					</div>
+
+					<div class="grid gap-8 border-t border-slate-200 pt-8 md:grid-cols-3 md:border-t-0 md:pt-0">
+						<div class="border-slate-200 md:border-l md:pl-6">
+							<h3 class="text-xl font-semibold text-slate-950">Security expectations are rising</h3>
+							<p class="copy mt-3">
+								Customers increasingly ask for evidence that software is built and operated with
+								strong security practices. Many SaaS companies face that expectation before they have
+								the internal structure to answer it well.
+							</p>
+						</div>
+
+						<div class="border-slate-200 md:border-l md:pl-6">
+							<h3 class="text-xl font-semibold text-slate-950">Regulation adds pressure</h3>
+							<p class="copy mt-3">
+								Frameworks such as NIS2 and the Cyber Resilience Act have made secure development,
+								supply-chain awareness, and security evidence more visible business concerns.
+							</p>
+						</div>
+
+						<div class="border-slate-200 md:border-l md:pl-6">
+							<h3 class="text-xl font-semibold text-slate-950">Practical answers are needed</h3>
+							<p class="copy mt-3">
+								SECDES focuses on approaches that respect limited time, limited staff, and the need to
+								keep shipping product while steadily improving security maturity.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="py-8 lg:py-10">
+	<div class="site-container">
+		<div class="max-w-3xl">
+			<h2 class="section-title">Three workstreams that connect research to implementation.</h2>
+			<p class="copy mt-4">
+				The project covers the full path from insight to action: understanding secure development
+				practices, selecting effective tools, and documenting decisions so teams can demonstrate
+				security maturity.
+			</p>
+		</div>
+
+		<div class="mt-8 grid gap-6 lg:grid-cols-3">
+			{#each focusAreas as area}
+				<article class="surface-card">
+					<div class="flex items-center gap-4">
+						<span class="number-chip">{area.id}</span>
+						<h3 class="text-xl font-semibold text-slate-950">{area.title}</h3>
+					</div>
+					<p class="copy mt-5">{area.copy}</p>
+				</article>
+			{/each}
+		</div>
+	</div>
+</section>
+
+<section class="py-8 lg:py-10">
+	<div class="site-container">
+		<div class="surface-panel p-8 sm:p-10 lg:p-12">
+			<div class="max-w-3xl">
+				<p class="kicker">What participants get</p>
+				<h2 class="section-title mt-4">Practical outcomes for participating teams.</h2>
+			</div>
+
+			<div class="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+				{#each outcomes as outcome}
+					<div class="surface-card">
+						<h3 class="text-xl font-semibold text-slate-950">{outcome.title}</h3>
+						<p class="copy mt-4">{outcome.copy}</p>
+					</div>
+				{/each}
+			</div>
+
+			<div class="mt-10 grid gap-8 pt-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+				<div>
+					<p class="kicker">Next steps</p>
+					<h2 class="section-title mt-4">Start with the materials that fit your team today.</h2>
+					<p class="copy mt-4 max-w-2xl">
+						Whether you are exploring threat modeling, secure development processes, API security,
+						SBOM practices, or pentesting preparation, the SECDES deliverables are designed to help
+						you move from awareness to implementation.
+					</p>
+				</div>
+
+				<div class="flex flex-wrap gap-4 lg:justify-end">
+					<a class="button-primary" href="/repository">Open repository</a>
+					<a class="button-secondary" href="/agenda">See event archive</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

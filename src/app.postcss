@@ -3,44 +3,153 @@
 @tailwind utilities;
 @tailwind variants;
 
+:root {
+	--font-body: 'Aptos', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+	--font-display: 'Aptos Display', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Arial,
+		sans-serif;
+	color-scheme: light;
+}
+
 html,
 body {
-	@apply h-full overflow-hidden;
+	min-height: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+	background-color: #eef4f8;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-body);
+	color: #0f172a;
+	background-color: #eef4f8;
+	background-image: radial-gradient(circle at top left, rgba(14, 165, 233, 0.16), transparent 30%),
+		radial-gradient(circle at top right, rgba(15, 23, 42, 0.12), transparent 26%),
+		linear-gradient(180deg, #f8fbfd 0%, #eef4f8 45%, #f8fafc 100%);
+}
+
+::selection {
+	background: rgba(14, 165, 233, 0.2);
+	color: #0f172a;
 }
 
 @layer base {
-  a {
-    @apply text-blue-600 hover:text-blue-800 hover:underline;
-  }
+	a {
+		@apply transition-colors duration-200;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: var(--font-display);
+	}
+
+	p {
+		@apply leading-7;
+	}
 }
 
-.media h1 {
-  @apply text-4xl font-bold mt-6 mb-4;
-}
+@layer components {
+	.site-shell {
+		@apply relative min-h-screen overflow-x-hidden text-slate-900;
+	}
 
-.media h2 {
-  @apply text-3xl font-semibold mt-5 mb-3;
-}
+	.site-container {
+		@apply mx-auto w-full max-w-7xl px-6 lg:px-8;
+	}
 
-.media h3 {
-  @apply text-2xl font-semibold mt-4 mb-2;
-}
+	.section {
+		@apply py-16 lg:py-24;
+	}
 
-.media h4 {
-  @apply text-xl font-medium mt-3 mb-2;
-}
+	.section-tight {
+		@apply py-12 lg:py-16;
+	}
 
-.media .title {
-  @apply text-3xl font-semibold;
-}
+	.eyebrow {
+		@apply inline-flex items-center rounded-sm border border-slate-200 bg-white/80 px-4 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-slate-600 shadow-sm backdrop-blur;
+	}
 
-.media ul, .rep ul {
-  list-style-type: disc;
-  padding-left: 1.5rem; /* indent so bullets show clearly */
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
+	.display-title {
+		@apply text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl;
+	}
 
-.rep ul li {
-  margin-bottom: 2rem;
+	.page-title {
+		@apply text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl;
+	}
+
+	.section-title {
+		@apply text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl;
+	}
+
+	.lead {
+		@apply text-lg leading-8 text-slate-600 sm:text-xl;
+	}
+
+	.copy {
+		@apply text-base leading-7 text-slate-600;
+	}
+
+	.surface-panel {
+		@apply border border-white/70 bg-white/85 shadow-[0_20px_60px_rgba(15,23,42,0.08)] backdrop-blur;
+	}
+
+	.surface-card {
+		@apply rounded-lg border border-slate-200/80 bg-white/90 p-6 shadow-[0_18px_45px_rgba(15,23,42,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,0.1)];
+	}
+
+	.button-primary {
+		@apply inline-flex items-center justify-center rounded-sm bg-slate-950 px-5 py-3 text-sm font-semibold text-white no-underline shadow-[0_12px_30px_rgba(15,23,42,0.18)] transition duration-200 hover:-translate-y-0.5 hover:bg-slate-800 hover:text-white;
+	}
+
+	.button-secondary {
+		@apply inline-flex items-center justify-center rounded-sm border border-slate-300 bg-white/80 px-5 py-3 text-sm font-semibold text-slate-800 no-underline transition duration-200 hover:-translate-y-0.5 hover:border-slate-500 hover:text-slate-950;
+	}
+
+	.kicker {
+		@apply text-sm font-semibold uppercase tracking-[0.2em] text-cyan-800;
+	}
+
+	.metric {
+		@apply border border-slate-200/70 bg-slate-50/80 p-4;
+	}
+
+	.metric-label {
+		@apply text-xs font-semibold uppercase tracking-[0.18em] text-slate-500;
+	}
+
+	.metric-value {
+		@apply mt-2 text-2xl font-semibold text-slate-950;
+		font-family: var(--font-display);
+	}
+
+	.metric-copy {
+		@apply mt-2 text-sm leading-6 text-slate-600;
+	}
+
+	.number-chip {
+		@apply inline-flex h-10 w-10 items-center justify-center rounded-sm bg-slate-950 text-sm font-semibold text-white shadow-sm;
+		font-family: var(--font-display);
+	}
+
+	.tag {
+		@apply inline-flex items-center rounded-sm bg-cyan-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-800;
+	}
+
+	.info-panel {
+		@apply border border-slate-200/80 bg-slate-50/80 p-5;
+	}
+
+	.link-arrow {
+		@apply inline-flex items-center gap-2 text-sm font-semibold text-slate-900 no-underline hover:text-cyan-800;
+	}
+
+	.divider-line {
+		@apply h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent;
+	}
 }

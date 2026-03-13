@@ -1,72 +1,85 @@
-<div class="flex w-full justify-center h-40 items-center mt-5 px-5 my-10">
-	<h2 class="h1 uppercase mb-5">SECDES Consortium</h2>
-</div>
-<div class="flex w-full justify-center items-center my-10">
-	<div class="max-w-7xl text-justify px-20">
-		The SECDES project is a collaboration of the DistriNet Research Group and Sirris, funded by the VLAIO Collective Research
-		&amp; Development and Collective Knowledge Dissemination / Transfer (COOCK) program. COOCK projects focus on a group of 
-		companies, with the aim of valorising (basic) research results by accelerating the introduction of technology and/or knowledge.
-	</div>
-</div>
-
-<div class="flex justify-center items-stretch gap-4 md:gap-6 flex-col md:flex-row mt-10 px-10 max-w-7xl mx-auto">
-	<div class="card variant-ghost-surface flex flex-col px-8 py-2 basis-auto md:basis-1/3">
-		<header class="card-header h4 mb-2 items-center min-h-[4rem]">
-			<img class="rounded-xl h-36 mx-auto" src="logo-distrinet.jpg" alt="logo Distrinet" />
-		</header>
-		<section class="text-justify p-4">
-			<p>
-				DistriNet is a KU Leuven research group embedded in the Department of Computer Science, and
-				is part of the imec-KU Leuven Security and Privacy Center. The scope of DistriNet’s research
-				is twofold: ICT security with an emphasis on secure software, secure systems, and software
-				engineering for security, and distributed systems. DistriNet’s knowledge and expertise in
-				these domains resulted in a strong international position in the domains of secure software,
-				systems and services, and in security &amp; privacy engineering.
-			</p>
-		</section>
-		<footer class="card-footer mt-4">
-			<p><a href="https://distrinet.cs.kuleuven.be" target="_blank">https://distrinet.cs.kuleuven.be</a></p>
-			<p>Contact: <a href="https://distrinet.cs.kuleuven.be/people/PieterPhilippaerts" target="_blank">Pieter Philippaerts</a>
-		</p>
-		</footer>
-	</div>
-
-	<div class="card variant-ghost-surface flex flex-col px-8 py-2 basis-auto md:basis-1/3">
-		<header class="card-header h4 mb-2 items-center min-h-[4rem]">
-			<img class="rounded-xl h-36 mx-auto" src="logo-sirris.jpg" alt="logo Sirris" />
-		</header>
-		<section class="text-justify p-4">
-			Sirris is the collective knowledge centre of the Belgian technology industry that has more than 
-			2,500 member companies and employs 140 experts. The implementation of this project will be done 
-			by the Sirris Software Engineering Lab, which supports companies in building secure software 
-			solutions. The lab has already been active for several years in the field of security and privacy 
-			and has a proven track record of industrial valorisation of research results and support of 
-			innovations/implementations of innovative solutions in companies.
-		</section>
-		<footer class="card-footer mt-4">
-			<p><a href="https://www.sirris.be" target="_blank">https://www.sirris.be</a></p>
-			<p>Contact: <a href="https://www.sirris.be/en/expert/nick-boucart" target="_blank">Nick Boucart</a></p>
-		</footer>
-	</div>
-	
-	<div class="card variant-ghost-surface flex flex-col px-8 py-2 basis-auto md:basis-1/3">
-		<header class="card-header h4 mb-2 items-center min-h-[4rem]">
-			<img class="rounded-xl h-36 mx-auto" src="logo-vlaio.png" alt="logo Vlaio" />
-		</header>
-		<section class="text-justify p-4">
-			The Agency for Innovation and Entrepreneurship (VLAIO) is a governmental organisation of the Flemish 
-			government for all entrepreneurs in FLanders. The mission of VLAIO is to stimulate and support 
-			innovation and entrepeneurship and to contribute to a favorable business-climate in Flanders. 
-		</section>
-		<footer class="card-footer mt-4">
-			<p><a href="https://www.vlaio.be" target="_blank">https://www.vlaio.be</a></p>
-		</footer>
-	</div>
-</div>
-
+<script lang="ts">
+	const partners = [
+		{
+			name: 'DistriNet',
+			role: 'Research partner',
+			image: '/logo-distrinet.jpg',
+			href: 'https://distrinet.cs.kuleuven.be',
+			contactHref: 'https://distrinet.cs.kuleuven.be/people/PieterPhilippaerts',
+			contactLabel: 'Pieter Philippaerts',
+			copy: "DistriNet is the KU Leuven research group behind much of the project's secure software engineering expertise. Its work spans ICT security, secure software, secure systems, and distributed systems, with a strong international profile in software and systems security."
+		},
+		{
+			name: 'Sirris',
+			role: 'Industry partner',
+			image: '/logo-sirris.jpg',
+			href: 'https://www.sirris.be',
+			contactHref: 'https://www.sirris.be/en/expert/nick-boucart',
+			contactLabel: 'Nick Boucart',
+			copy: 'Sirris is the collective knowledge center of the Belgian technology industry. Through its software engineering expertise, Sirris helps turn research insights into practical guidance and support for companies that want to improve how they build secure software.'
+		},
+		{
+			name: 'VLAIO',
+			role: 'Funding support',
+			image: '/logo-vlaio.png',
+			href: 'https://www.vlaio.be',
+			copy: 'VLAIO supports innovation and entrepreneurship in Flanders. Through the COOCK program, it helps make applied research accessible to broader groups of companies so that new knowledge can reach industry faster.'
+		}
+	];
+</script>
 
 <svelte:head>
-	<title>SECDES - Security by Design Collective Research Project</title>
-	<meta name="description" content="SECDES is a collective research project by DistriNet and Sirris that aims to help SaaS companies adopt security-by-design.">
-	<meta name=”robots” content="index, follow">
+	<title>Consortium | Security by Design</title>
+	<meta
+		name="description"
+		content="Meet the partners behind the SECDES project: DistriNet, Sirris, and VLAIO."
+	/>
+	<meta name="robots" content="index, follow" />
 </svelte:head>
+
+<section class="pb-8 lg:pb-10" style="padding-top: 0; padding-bottom: 0;">
+	<div class="site-container">
+		<div class="surface-panel p-8 sm:p-10 lg:p-12">
+			<h1 class="page-title max-w-4xl">The Organizations Behind SECDES</h1>
+			<p class="lead mt-6 max-w-3xl">
+				SECDES is a collaboration between the DistriNet Research Group and Sirris, funded through
+				the VLAIO COOCK program. The project is designed to move strong research results into usable
+				guidance for software companies.
+			</p>
+			<p class="copy mt-4 max-w-3xl">
+				The consortium reflects the full path from security research to company-facing guidance.
+				DistriNet contributes academic depth in secure software engineering, Sirris brings
+				industry-facing support and practical translation, and VLAIO enables applied impact through
+				public innovation funding.
+			</p>
+			<div class="mt-10 grid gap-6 lg:grid-cols-3">
+				{#each partners as partner}
+					<article class="surface-card flex h-full flex-col">
+						<div class="flex items-center justify-between gap-4">
+							<span class="tag">{partner.role}</span>
+							<img
+								alt={`${partner.name} logo`}
+								class="max-h-16 object-contain"
+								src={partner.image}
+							/>
+						</div>
+
+						<h3 class="mt-6 text-2xl font-semibold text-slate-950">{partner.name}</h3>
+						<p class="copy mt-4 flex-1">{partner.copy}</p>
+
+						<div class="mt-6 space-y-3">
+							<a class="link-arrow" href={partner.href} rel="noreferrer" target="_blank">
+								Visit organization
+							</a>
+							{#if partner.contactHref}
+								<a class="link-arrow" href={partner.contactHref} rel="noreferrer" target="_blank">
+									Contact {partner.contactLabel}
+								</a>
+							{/if}
+						</div>
+					</article>
+				{/each}
+			</div>
+		</div>
+	</div>
+</section>

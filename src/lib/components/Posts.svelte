@@ -1,30 +1,29 @@
 <script lang="ts">
-    import type { Post } from '$lib/types'
+	import type { Post } from '$lib/types';
+	import { formatDate } from '$lib/utils';
 
-    import { formatDate } from "$lib/utils";
-    export let posts: Post[];
+	export let posts: Post[];
 </script>
 
-
-<div class="flex justify-center">
-	<div class="w-10/12 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center">
+{#if posts.length === 0}
+	<div class="surface-panel p-8 text-center sm:p-10">
+		<h2 class="section-title">No articles published yet.</h2>
+		<p class="copy mt-4">Check back later for updates from the project.</p>
+	</div>
+{:else}
+	<div class="grid gap-6 lg:grid-cols-3">
 		{#each posts as post}
-			<a class="card card-hover overflow-hidden mt-8" href="posts/{post.slug}">
-				<div class="p-4 space-y-4">
-					<h3 class="h3">{post.title}</h3>
-					<article>
-						<p>
-							{post.description}
-						</p>
-					</article>
+			<a class="surface-card flex h-full flex-col no-underline" href={`posts/${post.slug}`}>
+				<div class="flex flex-wrap items-center gap-3">
+					<span class="tag">Article</span>
+					<span class="text-sm text-slate-500">{formatDate(post.date, 'long', 'en-US')}</span>
 				</div>
-				<hr class="opacity-50" />
-				<footer class="p-4 flex justify-start items-center space-x-4">
-					<div class="flex-auto flex justify-between items-center">
-						<small>On {formatDate(post.date)}</small>
-					</div>
-				</footer>
+
+				<h2 class="mt-5 text-2xl font-semibold text-slate-950">{post.title}</h2>
+				<p class="copy mt-4 flex-1">{post.description}</p>
+
+				<span class="link-arrow mt-6">Read article</span>
 			</a>
 		{/each}
 	</div>
-</div>
+{/if}
